@@ -161,7 +161,7 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-/*
+
 * {
   cursor: var(--cursor);
 }
@@ -174,7 +174,7 @@ input:hover,
 input:focus {
   cursor: var(--cursorHover);
 }
-*/
+
 .space-mono-bold {
   font-family: "Space Mono", monospace;
   font-weight: 700;
