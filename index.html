@@ -64,10 +64,17 @@
     color: #c0ccda;
   }
 
-  .sib-form-block__button {
-            pointer-events: auto;
-            cursor: pointer;
-        }
+/* Ensure button is clickable */
+.sib-form-block__button {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+/* Raise z-index for the form container to ensure it's above other elements */
+.sib-form-container {
+    position: relative;
+    z-index: 10;
+}
 </style>
 <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
 <!--  END - We recommend to place the above code in head tag of your website html -->
