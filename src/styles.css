@@ -80,7 +80,7 @@ body, div, p {
 }
 
 .background-heading {
-  background-image: url('src/images/BannerBox.png'); /* Path to your image */
+  background-image: url("src/images/BannerBox.png"); /* Path to your image */
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the image */
   color: white; /* Ensures text is readable */
