@@ -46,9 +46,9 @@ body, div, p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 50%; /* Full viewport height */
+    height: 100vh; /* Full viewport height */
     object-fit: cover;
- 
+    clip-path: inset(0 0 33.33% 0); /* Cuts off the last third from the bottom */
 }
 
 :root {
