@@ -31,10 +31,16 @@ body, div, p {
 }
 
 .invisible-line {
-    border: none; /* Removes the default line */
-    height: 1em; /* Controls the vertical space */
-    margin: 0; /* Adjust margin if needed */
+    margin-top: 1.5em; /* Increase space above */
+    margin-bottom: 1.5em; /* Increase space below */
+    border: none; /* Removes any default border */
+    border-top: 1px solid rgba(255, 255, 255, 0.5); /* Adds a thin, semi-transparent line */
 }
+
+.p {
+    text-align: center; /* Centers the text inside <p> elements */
+}
+
 
 
 :root {
