@@ -7,10 +7,29 @@
   src: url("./fonts/baby.ttf") format("truetype");
 }
 
+/* Ensure links have pointer-events and proper cursor */
 a {
     pointer-events: auto;
     cursor: pointer;
 }
+
+/* Set pointer cursor on hover and focus */
+a:hover, a:focus {
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+/* Raise z-index for the link in the footer paragraph */
+.footer-paragraph a {
+    position: relative;
+    z-index: 15;
+}
+
+/* Limit custom cursor to specific elements */
+body, div, p {
+    cursor: var(--cursor);
+}
+
 
 
 :root {
