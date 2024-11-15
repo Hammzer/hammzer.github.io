@@ -64,7 +64,7 @@ html.lenis {
   height: 40px;
   font-size: 30px;
   position: absolute;
-  pointer-events: none;
+  pointer-events: auto;
   transition: transform 0.1s;
   z-index: 100;
 }
