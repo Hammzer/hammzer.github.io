@@ -30,6 +30,11 @@ body, div, p {
     cursor: var(--cursor);
 }
 
+.invisible-line {
+    border: none; /* Removes the default line */
+    height: 1em; /* Controls the vertical space */
+    margin: 0; /* Adjust margin if needed */
+}
 
 
 :root {
