@@ -79,6 +79,17 @@ body, div, p {
     floating 7s ease-in-out infinite 1.5s;
 }
 
+.background-heading {
+  background-image: url('src/images/bannerbox.jpg'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  color: white; /* Ensures text is readable */
+  padding: 20px; /* Adds some space around the text */
+  text-align: center; /* Centers the text */
+  font-size: 2rem; /* Adjust text size as needed */
+}
+
+
 .animate-floating {
   animation: floating 7s ease-in-out infinite;
 }
