@@ -77,31 +77,42 @@
   <!-- Rest of the HTML remains the same -->
   <body class="overflow-x-hidden bg-black text-white">
     <div class="w-screen relative">
-      <!-- Hamburger Menu -->
-      <input
-        type="checkbox"
-        role="button"
-        aria-label="Display the menu"
-        class="menu fixed top-5 right-5 z-[50]"
-      />
+      
+Here's what the updated snippet would look like if you add a link to the new "About" page in the existing hamburger menu:
 
-      <!-- Menu Overlay -->
-      <div
-        class="menu-black-overlay fixed top-0 right-0 w-screen h-screen bg-black opacity-0 z-40 hidden"
-      ></div>
+html
+Copy code
+<!-- Hamburger Menu -->
+<input
+  type="checkbox"
+  role="button"
+  aria-label="Display the menu"
+  class="menu fixed top-5 right-5 z-[50]"
+/>
 
-      <div
-        class="menu-overlay fixed top-0 right-0 translate-x-[100%] w-64 bg-[#1f122b] shadow-lg h-screen z-[49]"
-      >
-        <nav class="pt-20 px-6">
-          <a
-            href="https://hammzer.github.io/"
-            class="block py-2 text-6xl hover:text-blue-600 transition-colors duration-200 text-white uppercase font-black text-center"
-          >
-            Home
-          </a>
-        </nav>
-      </div>
+<!-- Menu Overlay -->
+<div
+  class="menu-black-overlay fixed top-0 right-0 w-screen h-screen bg-black opacity-0 z-40 hidden"
+></div>
+
+<div
+  class="menu-overlay fixed top-0 right-0 translate-x-[100%] w-64 bg-[#1f122b] shadow-lg h-screen z-[49]"
+>
+  <nav class="pt-20 px-6">
+    <a
+      href="https://hammzer.github.io/"
+      class="block py-2 text-6xl hover:text-blue-600 transition-colors duration-200 text-white uppercase font-black text-center"
+    >
+      Home
+    </a>
+    <a
+      href="https://hammzer.github.io/about.html"
+      class="block py-2 text-6xl hover:text-blue-600 transition-colors duration-200 text-white uppercase font-black text-center"
+    >
+      About
+    </a>
+  </nav>
+</div>
 
       <!-- Background Images -->
       <img
